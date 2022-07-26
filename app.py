@@ -248,7 +248,6 @@ if option == 'News':
             st.title(news_option + " " + business_topic)
             business = gn.topic_headlines('CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB/sections/CAQiSENCQVNNQW9JTDIwdk1EbHpNV1lTQW1WdUdnSlZVeUlQQ0FRYUN3b0pMMjB2TUdkbWNITXpLZ3NTQ1M5dEx6Qm5abkJ6TXlnQSoqCAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVABUAE')
             newsitem = business['entries']
-            print([entities][0])
             for item in newsitem:
                 st.write(item.title)
                 st.write(item.link)
