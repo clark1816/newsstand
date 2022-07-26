@@ -1,3 +1,4 @@
 click<=8.0.4
 streamlit==1.11.0
 pygooglenews==0.1.2
+setuptools==57.5.0
