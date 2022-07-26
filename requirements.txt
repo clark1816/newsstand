@@ -1,6 +1,4 @@
 click<=8.0.4
 streamlit==1.11.0
-pygooglenews==0.1.2
-setuptools==57.5.0
-pip==19.3.1
-protobuf==3.19.0
+requests==2.26.0
+requests-html==0.10.0
